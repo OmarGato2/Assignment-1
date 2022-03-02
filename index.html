@@ -1,242 +1,258 @@
 <html>
 
 <head>
-    <title>
-
-    </title>
     <style>
         body {
-            margin: 0px;
+            margin: 8px;
+            font-size: calc(1em * 0.875);
+            line-height: 1.6;
+            font-family: sans-serif;
         }
 
         nav {
+            width: 15%;
+            float: left;
 
-            background-color: navy;
-            overflow: hidden;
+            height: 100%;
+            background-color: #eaecf0;
         }
 
         main {
-            /* float: left; */
-            /* width: 80%; */
-            padding: 10px;
-            background-color: dodgerblue;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        .img-container {
-            width: 33.3%;
-            float: right;
-            padding: 10px;
-            /* margin-left: 20%; */
-        }
-
-        img {
-            border-radius: 5px;
-        }
-
-        #center {
-            margin: 0 auto;
-            width: 90%;
-        }
-
-        .clearfix {
-            overflow: hidden;
-        }
-
-        .clearfix::after {
-            clear: both;
+            height: 100%;
+            /* background-color: teal; */
 
         }
 
-        nav a {
-            display: block;
-            float: left;
-            padding: 10px;
-
-            color: darkgoldenrod;
-            text-decoration: none;
-
-            padding: 14px 16px;
-            text-align: center;
-
-        }
-
-        nav a:hover {
-            background-color: f2f2f2;
-            color: #333;
-        }
-
-        @media screen and (max-width: 550px) {
-            .img-container {
-                width: 100%;
-                float: none;
-                padding: 10px 0px 10px 0px;
-            }
-
-            nav a {
-                width: 100%;
-                float: none !important;
-            }
-        }
-
-        h1 {
+        h1,
+        h2 {
             margin: 0px;
         }
 
-        footer,
+        /* h2{
+                border-bottom: 1px solid #a2a9b1;
+            } */
         header {
-            background-color: grey;
+            /* background-color: coral; */
+        }
+
+        aside {
+            float: right;
+            width: 200px;
+            /* background-color: darkgrey; */
             text-align: center;
+            padding: 7px;
+            border: 1px solid #a2a9b1;
+            margin-left: 8px;
+
         }
 
-        .row {
-            display: -ms-flexbox;
-            /* IE10 */
-            display: flex;
-            -ms-flex-wrap: wrap;
-            /* IE10 */
-            flex-wrap: wrap;
+        aside h3 {
+
+            margin: 0px;
+            background-color: dodgerblue;
         }
 
-        /* Create two unequal columns that sits next to each other */
-        /* Sidebar/left column */
-        .left_column {
-            -ms-flex: 30%;
-            /* IE10 */
-            flex: 30%;
-            background-color: #f1f1f1;
-            padding: 20px;
+        article {
+            width: 85%;
+            float: left;
         }
 
-        main {
-            margin-bottom: 30px;
+        section {
+            padding: 8px;
         }
 
-        * {
-            font-family: Arial, Helvetica, sans-serif;
+        nav ul {
+            list-style-type: none;
+            padding: 0px;
         }
 
-        .img-container img {
-            width: 100%;
+        nav h3 {
+            margin: 0px;
+        }
 
+        section#contents {
+            border: 1px solid #a2a9b1;
+            display: table;
+            background-color: #eaecf0;
+
+        }
+
+        section#seeAlso ul {
+
+            margin: 0.3em 0 0 1.6em;
+            padding: 0;
+
+        }
+
+        section#notes ul {
+            list-style-type: lower-latin;
+            margin: 0.3em 0 0 1.6em;
+            padding: 0;
+
+        }
+
+        hr {
+            margin-top: 0px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>
-            Omar Gato's Homepage
-        </h1>
-        <p>
-            Everything to know about me!
-        </p>
-    </header>
-    <nav>
-        <a href="">
-            Home
-        </a>
-
-        <a href="">
-            About Me
-        </a>
-
-        <a href="">
-            Contact Me
-        </a>
-
-        <a href="" style="float: right;">
-            Settings
-        </a>
-        </ul>
-    </nav>
     <main>
-        <p> Hello! Welcome to my web page. My name is Omar and I am 19 years old. I was originally raised in Burnaby,
-            but
-            now I lived in Richmond to enjoy my life and adventure with my family. I live with my parents, my grandma,
-            two brothers and two sisters.
-        </p>
-        <p>
-        <ul>
-            <li><a href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab01/index.html">Lab 1</a></li>
-            <li><a href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab02/part%20a/index.html">Lab 2 -
-                    Part A</a></li>
-            <li><a href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab02/part%20b/index.html">Lab 2 -
-                    Part B</a></li>
-            <li><a href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab02/part%20c/index.html">Lab 2 -
-                    Part C</a></li>
-            <li><a
-                    href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab03/Lab%203%20-%20Part%201/padding_exercise.html">Lab
-                    3 - Part 1</a></li>
-            <li><a
-                    href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab03/Lab%203%20-%20Part%202/margin_exercise.html">Lab
-                    3 - Part 2</a></li>
-            <li><a
-                    href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab03/Lab%203%20-%20Part%203/class_selectors.html">Lab
-                    3 - Part 3</a></li>
-            <li><a
-                    href="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/lab03/Lab%203%20-%20Part%204/css_units_and_layout.html">Lab
-                    3 - Part 4</a></li>
-        </ul>
-        </p>
-        <div class="row">
-            <div class="left_column">
+        <nav>
+            <div>
+                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/1200px-Wikipedia_svg_logo-es.jpg"
+                    alt width="100%">
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Contact Me
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Settings
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <h2>About Me</h2>
+                <hr>
+                <aside>
+                    <h3>Omar Gato</h3>
+                    Everything you need to know About Me.
+                    <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0821.JPG"
+                        alt="" width="100%">
+                </aside>
+                <blockquote>
+                    <b>"Optimism is the faith that leads to achievement. Nothing can be done without hope and
+                        confidence."</b>
+                    <br>
+                    - Hellen Keller
+                </blockquote>
+                <p>
+                    Hello! Welcome to my web page. My name is Omar and I am 19 years old. I was originally raised in
+                    Burnaby, but now I lived in Richmond to enjoy my life and adventure with my family. I live with my
+                    parents, my grandma, two brothers and two sisters.
+                </p>
+
+                <p>
+                    My mom originally was planning for me to go to BC Muslim School, but I had a panic attack. So
+                    instead, I took Mitchell Elementary School and I enjoyed the subjects, field trips, friendships and other events that were memorable to me. I have gotten to know my friends
+                    students, who went to the same high school as me that I still keep in touch with as of now. I spended 8 years at Mitchell Elementary School
+                    since 2007.
+                </p>
+
                 <h2>Educational Life</h2>
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0820.JPG"
-                    style="height:200px">
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0826.JPG"
-                    style="height:200px">
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0827.JPG"
-                    style="height:200px">
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0828.JPG"
-                    style="height:200px">
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0821.JPG"
-                    style="height:200px">
-                <img src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0822.JPG"
-                    style="height:200px">
-                <p> I started attending Cambie Secondary School when I was 12 in 2015 and I lasted 5 years until I
+                <hr>
+                <blockquote>
+                    <b>"We made it my dude! It's been great to see you grow over the years and I'm proud to call you
+                        my friend. Stay cool, stay smart, and I hope I see you around. Have a great summer dude!"</b>
+                    <br>
+                    - Elliott Evans
+                </blockquote>
+                <p>
+                    I started attending Cambie Secondary School when I was 12 in 2015 and I lasted 5 years until I
                     graduated. 2 years ago, I hoped to walk across the stage at the UBC Chan Centre, but unfortunately I
                     couldn't due to COVID, so I had to walk across the steps toward the principal and shake hands while
                     getting my picture taken. It was a struggle for me to turn the tassel to the side room with the
                     setup which was funny. Finally I left outside on a beautiful sunny weather, throw my grad cap in the
                     air with excitement, and I went out with $1250 scholarship Physical and Heath Education and $200
-                    scholarship for Office.</p>
-            </div>
+                    scholarship for Office.
+                </p>
 
-        </div>
-
-        <div class="clearfix">
-            <div id="center">
-
-                <div class="img-container" style="float: left; margin-left: 0px;">
-                    <img
-                        src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_1803.JPG">
-                </div>
-                <div class="img-container">
-                    <img
-                        src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/4e12f869-6625-4a3a-9101-3e94745c28eb.JPG">
-                </div>
-                <div class="img-container">
-                    <img
-                        src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/01478e8a-20d4-49d8-ab7c-ce95ea9c0e81.JPG">
-                </div>
-                <div class="img-container">
-                    <img
-                        src="file:///Users/omargato/Documents/BCIT/Web%20Programming%201/Assignment%201/images%20/IMG_0639.jpg">
-                </div>
-            </div>
-        </div>
+                <sup>[1]</sup>
+                <h2>Contact Me</h2>
+            </section>
+            <section id="contents">
+                <ul>
+                    <li class="toclevel-1 tocsection-1">
+                        <a href="#Educational Life">
+                            <span class="tocnumber">1</span>
+                            <span class="toctext">Educational Life</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="tolevel-1 tosection-2">
+                        <a href="#Gato Family">
+                            <span class="tonumber">2</span>
+                            <span class="totext">Gato Family</span>
+                        </a>
+                    </li>
+                    <ul>
+                        <li class="tolevel-2 tosection-3">
+                            <a href="#Iskandar Gato">
+                                <span class="tonumber">2.1</span>
+                                <span class="totext">Iskandar Gato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-4">
+                            <a href="#Ikram Ibrahim">
+                                <span class="tonumber">2.2</span>
+                                <span class="totext">Ikram Ibrahim</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-5">
+                            <a href="#Nadia Gato">
+                                <span class="tonumber">2.3</span>
+                                <span class="totext">Nadia Gato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-6">
+                            <a href="#Nazira Gato ">
+                                <span class="tonumber">2.4</span>
+                                <span class="totext">Nazira Gato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-7">
+                            <a href="#Ikram Ibrahim">
+                                <span class="tonumber">2.5</span>
+                                <span class="totext">Abdul Gato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-8">
+                            <a href="#Ali Gato">
+                                <span class="tonumber">2.6</span>
+                                <span class="totext">Ali Gato</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="tolevel-2 tosection-3">
+                            <a href="#Bedriya Yousuf">
+                                <span class="tonumber">2.6</span>
+                                <span class="totext">Bedriya Yousuf</span>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </section>
+        </article>
     </main>
-    <footer>
-        <h1>
-            Footer
-        </h1>
-    </footer>
-
-
 </body>
 
 </html>
