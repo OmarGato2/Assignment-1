@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            margin: 8px;
+            margin: 10px;
             font-size: calc(1em * 0.875);
             line-height: 1.6;
             font-family: sans-serif;
@@ -52,6 +52,12 @@
             background-color: dodgerblue;
         }
 
+        aside h4 {
+
+            margin: 0px;
+            background-color: tomato;
+        }
+
         article {
             width: 85%;
             float: left;
@@ -74,21 +80,6 @@
             border: 1px solid #a2a9b1;
             display: table;
             background-color: #eaecf0;
-
-        }
-
-        section#seeAlso ul {
-
-            margin: 0.3em 0 0 1.6em;
-            padding: 0;
-
-        }
-
-        section#notes ul {
-            list-style-type: lower-latin;
-            margin: 0.3em 0 0 1.6em;
-            padding: 0;
-
         }
 
         hr {
@@ -107,17 +98,50 @@
             <ul>
                 <li>
                     <a href="">
-                        Home
+                        Home Page
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        About Me
+                        About Us
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        Contact Me
+                        Our Background Info
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Settings
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <ul>
+                <li>
+                    <a href="">
+                        Home Page
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Our Background Info
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Contact Us
                     </a>
                 </li>
                 <li>
@@ -133,8 +157,8 @@
                 <hr>
                 <aside>
                     <h3>Omar Gato</h3>
-                    Everything you need to know About Me.
-                    <img src="https://lh3.googleusercontent.com/dmTSUgM8IYNRVZa2R_1lNzcNsN3RI53fBAuxfJfMVZ1_Q4xcIavzSh0NkjN0CTbpf9z5npGrUmkmDKXg-InCiyURwKmMkdvjDQyBUw3vmvrshAgs7ivC2rpAXh5dPVhgfYQ6SZbJId3x3zqm_RGcSU7arkGFhpd_z93KmImNJTEiE2TutOQG_2gcv53iaZ8owMDOuFcN_LPscj3y87tFBAMqz-W57DUVL6ZvKe-QHxja_0f1ajhYDK-mNFdZWPB4ojjApDKdROfUdhcoChmSwz9MzJfKS_7TWyL4HcYeNOsz9QkyhGZyvuBUmA1EhTTfvWR6j-CgTdGQyd9CfxiQvvVqQqwsxb16qy8PyKqQeWAjMEJUGfJWa10W4slhunviO_f3PeybnHaFd4egJ2AlmXZ6EWRIRu5DHjEgfoi4jwiErUOJewtSGZqIWh9MEFu6ZAiihFwmLvSAa2vCydxBXQh93Xpb_JehKWpKrTO3OGpPJH8LIJi4nYRvYouaoA7uq5kdd4gTzFmZwSLz8TC4D1uwd6W73xIwcn3b7zGRWw8H1ITfj_AHAzfNN-R-S2e4NUQx0bgm_-MgEOfAxVCzSOtELGi4j63ZzA1J56mQc62RfnZszuQIYN6hJC4C8jWBaIBKMXKuH0hs1r5XQ4PvyS2Tq2wc4A5vouXhwdkaTC9gqjkARjp3h6pFNFKZv3mD5QVn62xeeHRSpWQe6JUNA0M=w1000-h1498-no?authuser=0" alt="" width="100%">
+                    <img src="https://lh3.googleusercontent.com/dmTSUgM8IYNRVZa2R_1lNzcNsN3RI53fBAuxfJfMVZ1_Q4xcIavzSh0NkjN0CTbpf9z5npGrUmkmDKXg-InCiyURwKmMkdvjDQyBUw3vmvrshAgs7ivC2rpAXh5dPVhgfYQ6SZbJId3x3zqm_RGcSU7arkGFhpd_z93KmImNJTEiE2TutOQG_2gcv53iaZ8owMDOuFcN_LPscj3y87tFBAMqz-W57DUVL6ZvKe-QHxja_0f1ajhYDK-mNFdZWPB4ojjApDKdROfUdhcoChmSwz9MzJfKS_7TWyL4HcYeNOsz9QkyhGZyvuBUmA1EhTTfvWR6j-CgTdGQyd9CfxiQvvVqQqwsxb16qy8PyKqQeWAjMEJUGfJWa10W4slhunviO_f3PeybnHaFd4egJ2AlmXZ6EWRIRu5DHjEgfoi4jwiErUOJewtSGZqIWh9MEFu6ZAiihFwmLvSAa2vCydxBXQh93Xpb_JehKWpKrTO3OGpPJH8LIJi4nYRvYouaoA7uq5kdd4gTzFmZwSLz8TC4D1uwd6W73xIwcn3b7zGRWw8H1ITfj_AHAzfNN-R-S2e4NUQx0bgm_-MgEOfAxVCzSOtELGi4j63ZzA1J56mQc62RfnZszuQIYN6hJC4C8jWBaIBKMXKuH0hs1r5XQ4PvyS2Tq2wc4A5vouXhwdkaTC9gqjkARjp3h6pFNFKZv3mD5QVn62xeeHRSpWQe6JUNA0M=w1000-h1498-no?authuser=0"
+                        alt="" width="100%">
                 </aside>
                 <blockquote>
                     <b>"Optimism is the faith that leads to achievement. Nothing can be done without hope and
@@ -143,112 +167,145 @@
                     - Hellen Keller
                 </blockquote>
                 <p>
-                    Hello! Welcome to my web page. My name is Omar and I am 19 years old. I was originally raised in
-                    Burnaby, but now I lived in Richmond to enjoy my life and adventure with my family. I live with my
-                    parents, my grandma, two brothers and two sisters.
+                    <b>Omar Iskandar Bekri Gato</b>; born October 13, 2002)<sup>[1]</sup>is a Canadian student in
+                    British Columbia Institue of Technology. He was born and raised by Ikram Ibrahim and Iskandar Gato
+                    in Burnaby, British Columbia to
+                    ;Both Ikram and Iskandar are Ethiopian. Now, he resides in
+                    Richmond
+                    British, Columbia. He lives with his two brothers, Abdul and Ali, and two sisters, Nadia and Nazira,
+                    and his grandma, Bedriya.
                 </p>
-
                 <p>
-                    My mom originally was planning for me to go to BC Muslim School, but I had a panic attack. So
-                    instead, I took Mitchell Elementary School and I enjoyed the subjects, field trips, friendships and other events that were memorable to me. I have gotten to know my friends
-                    students, who went to the same high school as me that I still keep in touch with as of now. I spended 8 years at Mitchell Elementary School
-                    since 2007.
+                    He finished his education in Mitchell Elementary School, Cambie Secondary School, and Langara
+                    College. He is now enrolled in BCIT until 2026 based on the modified plan. His favourite role models
+                    are Will Smith and Michael Jackson. His current favourite artist is Dua Lipa.
                 </p>
-
-                <h2>Educational Life</h2>
-                <hr>
-                <blockquote>
-                    <b>"We made it my dude! It's been great to see you grow over the years and I'm proud to call you
-                        my friend. Stay cool, stay smart, and I hope I see you around. Have a great summer dude!"</b>
-                    <br>
-                    - Elliott Evans
-                </blockquote>
-                <p>
-                    I started attending Cambie Secondary School when I was 12 in 2015 and I lasted 5 years until I
-                    graduated. 2 years ago, I hoped to walk across the stage at the UBC Chan Centre, but unfortunately I
-                    couldn't due to COVID, so I had to walk across the steps toward the principal and shake hands while
-                    getting my picture taken. It was a struggle for me to turn the tassel to the side room with the
-                    setup which was funny. Finally I left outside on a beautiful sunny weather, throw my grad cap in the
-                    air with excitement, and I went out with $1250 scholarship Physical and Heath Education and $200
-                    scholarship for Office.
-                </p>
-
-                <sup>[1]</sup>
-                <h2>Contact Me</h2>
             </section>
             <section id="contents">
                 <ul>
                     <li class="toclevel-1 tocsection-1">
-                        <a href="#Educational Life">
+                        <a href="#about_me">
                             <span class="tocnumber">1</span>
-                            <span class="toctext">Educational Life</span>
+                            <span class="toctext">About Me</span>
                         </a>
                     </li>
-                </ul>
-                <ul>
-                    <li class="tolevel-1 tosection-2">
-                        <a href="#Gato Family">
+                    <li class="toclevel-1 tocsection-2">
+                        <a href="#educational_life">
                             <span class="tonumber">2</span>
-                            <span class="totext">Gato Family</span>
+                            <span class="totext">Educational Life</span>
                         </a>
                     </li>
-                    <ul>
-                        <li class="tolevel-2 tosection-3">
-                            <a href="#Iskandar Gato">
-                                <span class="tonumber">2.1</span>
-                                <span class="totext">Iskandar Gato</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-4">
-                            <a href="#Ikram Ibrahim">
-                                <span class="tonumber">2.2</span>
-                                <span class="totext">Ikram Ibrahim</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-5">
-                            <a href="#Nadia Gato">
-                                <span class="tonumber">2.3</span>
-                                <span class="totext">Nadia Gato</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-6">
-                            <a href="#Nazira Gato ">
-                                <span class="tonumber">2.4</span>
-                                <span class="totext">Nazira Gato</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-7">
-                            <a href="#Ikram Ibrahim">
-                                <span class="tonumber">2.5</span>
-                                <span class="totext">Abdul Gato</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-8">
-                            <a href="#Ali Gato">
-                                <span class="tonumber">2.6</span>
-                                <span class="totext">Ali Gato</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="tolevel-2 tosection-3">
-                            <a href="#Bedriya Yousuf">
-                                <span class="tonumber">2.6</span>
-                                <span class="totext">Bedriya Yousuf</span>
-                            </a>
-                        </li>
-                    </ul>
+                    <li class="toclevel-2 tocsection-3">
+                        <a href="#mitchell_elementary_school">
+                            <span class="tonumber">2.1</span>
+                            <span class="totext">Mitchell Elementary</span>
+                        </a>
+                    </li>
+                    <li class="toclevel-2 tocsection-4">
+                        <a href="#cambie_secondary_school">
+                            <span class="tonumber">2.2</span>
+                            <span class="totext">Cambie Secondary School</span>
+                        </a>
+                    </li>
+                    <li class="toclevel-2 tocsection-5">
+                        <a href="#langara_college">
+                            <span class="tonumber">2.3</span>
+                            <span class="totext">Langara College</span>
+                        </a>
+                    </li>
+                    <li class="toclevel-2 tocsection-6">
+                        <a href="#contact_me">
+                            <span class="tocnumber">3</span>
+                            <span class="toctext">Contact Me</span>
+                        </a>
+                    </li>
                 </ul>
+            </section>
+            <br>
+            <section>
+                <h2>Educational Life</h2>
+                <hr>
+                <aside>
+                    <h4>Mitchell Firebirds</h4>
+                    <img src="https://pbs.twimg.com/profile_images/1039362613128310784/02pELllF_400x400.jpg" alt
+                        width="100%">
+                </aside>
+                <h4>Mitchell Elementary School (2007 - 2015)</h4>
+                <blockquote>
+                    <h3>"Working together to achieve our best." - Mitchell Elementary School</h3>
+                </blockquote>
+                <p>
+                    His mom, Ikram, originally was planning for him to go to BC Muslim School, but he had a panic
+                    attack. So
+                    instead, he took Mitchell Elementary School and enjoyed the subjects, field trips, friendships and
+                    other events that were memorable to him. He has gotten to know his friends, who he went to a similar
+                    high school. He still keeps in touch with them afterwards.
+                    He spended 8 years at Mitchell Elementary School and received a certificate at the Grad Assembly of
+                    2015
+                    since 2007.
+                </p>
+            </section>
+            <section>
+                <h4>Cambie Secondary School (2015 - 2020)</h4>
+                <aside>
+                    <h3>Cambie Crusaders</h3>
+                    <img src="https://risp.sd38.bc.ca/sites/default/files/school-logos/Cambie_2021.png" alt
+                        width="100%">
+                </aside>
+                <blockquote>
+                    <h3>"We made it my dude! It's been great to see you grow over the years and I'm proud to call you
+                        my friend. Stay cool, stay smart, and I hope I see you around. Have a great summer dude!" -
+                        Elliott Evans</h3>
+                </blockquote>
+                <blockquote>
+                    <h3>"Be Responsible, Be Respectful, and Be Ready to Succeed." - Cambie Secondary School</h3>
+
+                </blockquote>
+                <p>
+                    In September 2015, he then started attending Cambie Secondary School at the age of 12 and lasted 5
+                    years until his
+                    graduation. 2 years ago, he has hoped to walk across the stage at the UBC Chan Centre, but
+                    unfortunately
+                    due to COVID, he couldn't perform his wishes there, so he walked across the steps toward the
+                    principal and shook hands while
+                    getting his picture taken. He was struggling to turn the tassel to the side room with the
+                    setup which was funny. He finally left outside on a beautiful sunny weather, throw the grad cap in
+                    the
+                    air with excitement, and went out with $1250 scholarship Physical and Heath Education and $200
+                    scholarship for Office. <sup>[2]</sup>
+                </p>
+            </section>
+            <section>
+                <h4>Langara College</h4>
+                <aside>
+                    <h4>Langara</h4>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5948350e4c8b0338cd1b5556/1503693690045-ZFVSGYUNVN3WN4O4X2U6/langara-logo.png?format=1000w"
+                        alt width="100%">
+                </aside>
+                <blockquote>
+                    <h3>"Stepping out of your comfort zone is key to building confidence in yourself." - Reo Tanaka</h3>
+                </blockquote>
+
+                <p>
+                    In September 2020, he started 1 year and 4 months at Langara College to study for Associate of Arts
+                    Degree in Social Sciences. He dropped 2 courses from Fall 2020 becasue he felt the pressure once he
+                    either didn't do well in the midterm or how hard the courses were to him. He took a total of 7
+                    courses from 2 years ago to last year in the fall, in order for him to register while transfering to
+                    BCIT.
+                </p>
+                <p>
+                    Omar started to have meetings with the Accessibility Services on zoom to discuss the plans of the
+                    work period which involves individual project instead of group project, instructor prints out
+                    lecture notes, taking a break while in the class and go for a walk, and extra time in quizzes,
+                    midterms, and exams.
+                </p>
+            </section>
+            <h2>Contact Me</h2>
+            <hr>
+            <p>
+                BCIT Email: ogato@my.bcit.ca <sup>[3]</sup>
+                Personal Email: o.gato2002@gmail.com <sup>[4]</sup>
+            </p>
             </section>
         </article>
     </main>
